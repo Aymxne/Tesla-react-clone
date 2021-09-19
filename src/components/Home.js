@@ -1,12 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "./Header";
 import Section from "./Section";
 
 function Home() {
 	return (
 		<Container>
-			<Header />
 			<Section
 				title="Model 3"
 				description="1% Company Car Tax."
@@ -60,5 +58,4 @@ export default Home;
 
 const Container = styled.div`
 	height: 100vh;
-	border: 1px solid red;
 `;
